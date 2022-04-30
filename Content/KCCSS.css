@@ -1,2 +1,29 @@
-﻿body {
+﻿html {
+    background-color: slategrey;
+}
+
+body {
+    background-color: slategrey;
+    color: whitesmoke;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list {
+    list-style-position: outside;
+    list-style:square;
+    text-align:left;
+    width:50%;
+}
+
+.validators {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align:left;
 }
